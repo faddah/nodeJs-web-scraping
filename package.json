@@ -1,0 +1,24 @@
+{
+  "name": "node.js-web-scraping-tutorial-udemy-free",
+  "version": "0.0.1",
+  "description": "Node.JS Web Scraping Tutorial — Udemy (Free)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.JS",
+    "JavaScript",
+    "TypeScript",
+    "web",
+    "scraping",
+    "tutorial",
+    "primer"
+  ],
+  "author": "faddah wolf <my_biz@me.com> (https://github.com/faddah/)",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request-promise": "^4.2.6"
+  }
+}

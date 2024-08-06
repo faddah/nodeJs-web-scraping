@@ -10,7 +10,8 @@ const runScrape =	 async () => { // async function expression assigned to a vari
 		let $ = cheerio.load(response);
 		let title = $('span[class="hero__primary-text"]').text();
 		let releaseDate = $('a[href="/title/tt0063823/releaseinfo?ref_=tt_ov_rdat"]').text();
-		console.log(title, releaseDate);
+		let titleAndReleaseDate = `${title} - ${releaseDate}`;
+		console.log(titleAndReleaseDate);
 		
   } catch (error) {
     console.error(error);

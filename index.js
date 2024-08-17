@@ -21,7 +21,7 @@ const runScrape =	 async () => { // async function expression assigned to a vari
 		writers.push($('a[href="/name/nm0006168/?ref_=tt_ov_wr"]').text().slice(0, -11));	
 		writers.push($('a[href="/name/nm0005200/?ref_=tt_ov_wr"]').text().slice(0, -14));
 	
-		console.log(`Rating Label: ${rating}`);
+		// console.log(`Rating Label: ${rating}`);
 		
 		let writersString = writers.join(', ');
 		let titleAndReleaseDate = `

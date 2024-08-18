@@ -9,7 +9,14 @@ const runScrape =	 async () => { // async function expression assigned to a vari
 		const response = await (request({
 			uri: URL,
 			Headers: {
-				"User-Agent": "Request-Promise",
+				"accept": "application/json, text/plain, */*",
+				"accept-encoding": "gzip, deflate, br, zstd",
+				"accept-language": "en-US,en;q=0.8",
+				"cache-control": "max-age=0",
+				"connection": "keep-alive",
+				"host": "www.imdb.com",
+				"upgrade-insecure-requests": "1",
+				"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
 			},
 			gzip: true,
 		}));

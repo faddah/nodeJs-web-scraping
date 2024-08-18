@@ -6,9 +6,16 @@ const URL = "https://www.imdb.com/title/tt0063823/?ref_=nv_sr_srsg_0_tt_7_nm_1_i
 
 const runScrape =	 async () => { // async function expression assigned to a variable
 	try {
-		const response = await (request(URL));
+		const response = await (request({
+			uri: URL,
+			Headers: {
+				"User-Agent": "Request-Promise",
+			},
+			gzip: true,
+		}));
 		// console.log(response);
 		let $ = cheerio.load(response);
+	
 		let title = $('span[class="hero__primary-text"]').text();
 		// let releaseDate = $('a[href="/title/tt0063823/releaseinfo?ref_=tt_ov_rdat"]').text();
 		let releaseDate = $('a[href="/title/tt0063823/releaseinfo?ref_=tt_ov_rdat"]').text();

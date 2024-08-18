@@ -1,0 +1,11 @@
+{
+	"accept": "application/json, text/plain, */*",
+	"accept-encoding": "gzip, deflate, br, zstd",
+	"accept-language": "en-US,en;q=0.8",
+	"cache-control": "max-age=0",
+	"connection": "keep-alive",
+	"cookie": "session-id=142-0744255-2768722; session-id-time=2082787201l; csm-hit=tb:s-NRW8YAEYGV5YNB6GR2XP|1723936489682&t:1723936489828&adb:adblk_yes; ubid-main=135-2601274-1918233; ad-oo=0; gpc-cache=1; ci=e30; session-token=tfjr5aKb3eVVqMp5QuOoR6UzQL2i3euNLMLTD5S5zgMevsacPTUWeVRtvgDnl8xDspLC3603jkzq51Zn9bn6iwke6wD4Zm4PUsTMwTmeTKDV6Vmu2ZWZKRcTCVjKAEhKsTQYpbF2IFmqaGNPVatMO3+rxkpDNUfBHDHHCj5abQux/cIGq2eXu28D5niYH6HwDwuLdSiVMwo8BhBKOsVH8H9i8VBhvNIpu5Hba1o14vz4lwnhhEu/C6HFKRIddby0cJNDenxEIgHYF2N5wKXNI1AzIE8lCvOAyqWEIxzX4EStO5r50zQAmDugCHCNc0UUglBiI3JSj0eoVV4TJcDVG20n4AyCW17+",
+	"host": "www.imdb.com",
+	"upgrade-insecure-requests": "1",
+	"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+}
